@@ -1,0 +1,18 @@
+#pepper and salt
+a=int(input())
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+n=[]
+for i in range(0,a):
+    for j in range(0,a):
+        r=b[i]+c[j]
+        n.append(r)
+print(min(n))
+
+o/p:
+3
+1 2 3
+2 8 6
+3
+
+ 
