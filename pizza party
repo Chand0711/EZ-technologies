@@ -1,0 +1,19 @@
+#pizza party
+a,y=list(map(int,input().split()))
+sum=0
+while True:
+    if a%y==0:
+        ans=y
+        break
+    else:
+        y=y+1
+s=0
+while ans>0:
+    digit=ans%10
+    s=s+digit
+    ans=ans//10
+print(s)
+o/p:
+100 17
+2
+
