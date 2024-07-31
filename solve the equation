@@ -1,0 +1,21 @@
+#solve the equation
+n=int(input())
+a=0
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        for k in range(1,n+1):
+            if i**2+j**2+k**2+i*j+j*k+k*i==n:
+                a+=1
+                print(i,j,k)
+                break
+if a>0:
+    print(a)
+else:
+    print("none")
+
+
+o/p:
+6
+1 1 1
+1
+
