@@ -1,0 +1,19 @@
+
+#spectial string
+
+s1=input()
+s2=input()
+s=0
+m=999
+for i in range(len(s1)):
+    for j in range(len(s2)):
+        d=abs(ord(s1[i])-ord(s2[j]))
+        if d<m:
+            m=d
+            s=s+d
+print(s)            
+o/p:
+abcd
+xyz
+86
+
