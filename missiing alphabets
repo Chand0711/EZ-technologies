@@ -1,0 +1,11 @@
+# Missing alpahbets
+
+a=input()
+b=("abcdefghijklmnopqrstuvwxyz")
+for char in b:
+    if char not in a:
+        print(char,end=" ")
+
+o/P:
+welcome to geeksforgeeks
+a b d h i j n p q u v x y z
